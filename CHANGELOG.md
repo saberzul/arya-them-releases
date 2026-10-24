@@ -5,6 +5,15 @@ Each entry lists the version, the version code and the release date.
 The release workflow copies the section of the tagged version into the GitHub release,
 and that text is what WordPress shows under «جزئیات نسخه».
 
+## [2.8.3] – 2026-10-25
+- Version code: `20803`
+- Requires at least: 5.9
+- Requires PHP: 7.4 (tested up to 8.5)
+
+### لوگو (هدر کلاسیک)
+- تازه در «تنظیمات قالب آریا › لوگو»: **پس‌زمینه دور لوگو** (روشن/خاموش؛ خاموش = شفاف) و **حاشیه دور لوگو** (روشن/خاموش؛ ضخامت و رنگ مثل قبل تنظیم می‌شود). اگر هر دو خاموش باشند سایه هم برداشته می‌شود و لوگو بدون قاب دیده می‌شود.
+- **فاصله تصویر تا لبه قاب** (۰ تا ۳۰ پیکسل) و **بزرگ‌نمایی تصویر داخل قاب** (۸۰ تا ۱۵۰٪) برای لوگوهایی که دورشان فضای خالی دارند.
+
 ## [2.8.2] – 2026-10-25
 - Version code: `20802`
 - Requires at least: 5.9
