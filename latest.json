@@ -1,15 +1,15 @@
 {
     "name": "arya_them",
-    "version": "2.7.1",
-    "version_code": 20701,
+    "version": "2.7.2",
+    "version_code": 20702,
     "released": "2026-10-24",
-    "tag": "v2.7.1",
-    "package": "https://github.com/saberzul/arya-them-releases/releases/download/v2.7.1/arya_them.zip",
-    "sha256": "92d40dbcfaaeb0560043d954b6c0f0e3cda6c43ddf7a28ea62b9ca93e0a55d68",
-    "size": 1727273,
+    "tag": "v2.7.2",
+    "package": "https://github.com/saberzul/arya-them-releases/releases/download/v2.7.2/arya_them.zip",
+    "sha256": "438d737453477e3a5c5bf2bdc495de37187549fad266c85f903e1c2c35c5dfe3",
+    "size": 1728222,
     "requires": "5.9",
     "requires_php": "7.4",
     "tested": "7.1",
-    "release_url": "https://github.com/saberzul/arya-them-releases/releases/tag/v2.7.1",
-    "notes": "- Version code: `20701`\n- Requires at least: 5.9\n- Requires PHP: 7.4 (tested up to 8.5)\n\n### انتشار\n- اولین نسخه‌ای که کاملاً **خودکار** در مخزن عمومی منتشر می‌شود: زدن تگ ← ساخت zip ← Release عمومی + `latest.json` + `CHANGELOG.md` ← بررسی SHA-256 دانلود عمومی.\n- اسکریپت انتشار: تیتر تغییرات با خط تیره فارسی درست خوانده می‌شود."
+    "release_url": "https://github.com/saberzul/arya-them-releases/releases/tag/v2.7.2",
+    "notes": "- Version code: `20702`\n- Requires at least: 5.9\n- Requires PHP: 7.4 (tested up to 8.5)\n\n### به‌روزرسانی\n- بررسی نسخه تازه به **هر ۲۴ ساعت** یک بار کاهش یافت (قبلاً ۶ ساعت).\n- درخواست با **ETag** فرستاده می‌شود: اگر `latest.json` تغییر نکرده باشد، گیت‌هاب فقط پاسخ «۳۰۴ – تغییر نکرده» می‌دهد و محتوایی منتقل نمی‌شود.\n- بررسی فقط از پیشخوان یا WP-Cron انجام می‌شود؛ بازدیدکننده‌های سایت هرگز منتظر گیت‌هاب نمی‌مانند.\n- دکمه‌ی «بررسی ارتباط» همچنان فوراً از گیت‌هاب می‌پرسد. فیلتر `arya_update_interval` برای تغییر فاصله (حداقل یک ساعت)."
 }
