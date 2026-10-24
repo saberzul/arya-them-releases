@@ -5,6 +5,15 @@ Each entry lists the version, the version code and the release date.
 The release workflow copies the section of the tagged version into the GitHub release,
 and that text is what WordPress shows under «جزئیات نسخه».
 
+## [2.7.1] – 2026-10-24
+- Version code: `20701`
+- Requires at least: 5.9
+- Requires PHP: 7.4 (tested up to 8.5)
+
+### انتشار
+- اولین نسخه‌ای که کاملاً **خودکار** در مخزن عمومی منتشر می‌شود: زدن تگ ← ساخت zip ← Release عمومی + `latest.json` + `CHANGELOG.md` ← بررسی SHA-256 دانلود عمومی.
+- اسکریپت انتشار: تیتر تغییرات با خط تیره فارسی درست خوانده می‌شود.
+
 ## [2.7.0] – 2026-10-24
 - Version code: `20700`
 - Requires at least: 5.9
