@@ -1,15 +1,15 @@
 {
     "name": "arya_them",
-    "version": "2.7.0",
-    "version_code": 20700,
+    "version": "2.7.1",
+    "version_code": 20701,
     "released": "2026-10-24",
-    "tag": "v2.7.0",
-    "package": "https://github.com/saberzul/arya-them-releases/releases/download/v2.7.0/arya_them.zip",
-    "sha256": "15583c912951424615f89a5ad4f97fd3608e3035f748514da2af1659102d0af1",
-    "size": 1727134,
+    "tag": "v2.7.1",
+    "package": "https://github.com/saberzul/arya-them-releases/releases/download/v2.7.1/arya_them.zip",
+    "sha256": "92d40dbcfaaeb0560043d954b6c0f0e3cda6c43ddf7a28ea62b9ca93e0a55d68",
+    "size": 1727273,
     "requires": "5.9",
     "requires_php": "7.4",
     "tested": "7.1",
-    "release_url": "https://github.com/saberzul/arya-them-releases/releases/tag/v2.7.0",
-    "notes": "- Version code: `20700`\n- Requires at least: 5.9\n- Requires PHP: 7.4 (tested up to 8.5)\n\n### تازه‌ها\n- **به‌روزرسانی از مخزن عمومی انتشار:** نسخه‌ها (zip، `latest.json` و تغییرات) در یک مخزن عمومی جدا منتشر می‌شوند و **کد منبع و تاریخچه git در مخزن خصوصی می‌ماند**. سایت‌ها دیگر به توکن نیاز ندارند.\n- **بررسی SHA-256:** هر فایل دانلودشده با کد کنترل ثبت‌شده در `latest.json` تطبیق داده می‌شود؛ اگر نخواند، به‌روزرسانی لغو می‌شود. آدرس دانلود فقط از همان مخزن پذیرفته می‌شود.\n- **انتشار خودکار:** با زدن تگ `vX.Y.Z` در مخزن خصوصی، workflow نسخه‌ها را می‌سنجد، zip را می‌سازد و در هر دو مخزن منتشر می‌کند (`tools/publish-release.php`) و دانلود عمومی را دوباره می‌سنجد. اجرای دوباره برای هر تگ هم ممکن است.\n- کادر پیشخوان ساده شد: وضعیت ارتباط (✓ سبز / ✕ قرمز با «تلاش دوباره»)، دکمه «به‌روزرسانی از منبع» و «بررسی ارتباط».\n\n### حذف شد\n- ورود توکن، `token.txt`، `.htaccess` مربوط به آن و `tools/make-token.php`. توکن ذخیره‌شده در نسخه‌های 2.5 و 2.6 خودکار پاک می‌شود."
+    "release_url": "https://github.com/saberzul/arya-them-releases/releases/tag/v2.7.1",
+    "notes": "- Version code: `20701`\n- Requires at least: 5.9\n- Requires PHP: 7.4 (tested up to 8.5)\n\n### انتشار\n- اولین نسخه‌ای که کاملاً **خودکار** در مخزن عمومی منتشر می‌شود: زدن تگ ← ساخت zip ← Release عمومی + `latest.json` + `CHANGELOG.md` ← بررسی SHA-256 دانلود عمومی.\n- اسکریپت انتشار: تیتر تغییرات با خط تیره فارسی درست خوانده می‌شود."
 }
