@@ -5,6 +5,15 @@ Each entry lists the version, the version code and the release date.
 The release workflow copies the section of the tagged version into the GitHub release,
 and that text is what WordPress shows under «جزئیات نسخه».
 
+## [2.8.4] – 2026-10-25
+- Version code: `20804`
+- Requires at least: 5.9
+- Requires PHP: 7.4 (tested up to 8.5)
+
+### هدر کلاسیک – ورود به سایت
+- کلید تازه **«بخش ورود به سایت در هدر»** («هدر دسکتاپ»): خاموش کردنش دکمه‌های ورود/ثبت‌نام دسکتاپ (یا «داشبورد» و «خروج» برای کاربر واردشده)، آیکون پروفایل موبایل و دکمه ورود/خروج منوی کناری را با هم پنهان می‌کند.
+- هر جا کلید جدا هم دارد: «دکمه‌های ورود / ثبت‌نام (دسکتاپ)»، «نمایش آیکون پروفایل / ورود» و تازه **«نمایش دکمه ورود / خروج در منوی کناری»** («هدر موبایل»).
+
 ## [2.8.3] – 2026-10-25
 - Version code: `20803`
 - Requires at least: 5.9
