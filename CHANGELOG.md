@@ -5,6 +5,17 @@ Each entry lists the version, the version code and the release date.
 The release workflow copies the section of the tagged version into the GitHub release,
 and that text is what WordPress shows under «جزئیات نسخه».
 
+## [2.7.2] – 2026-10-24
+- Version code: `20702`
+- Requires at least: 5.9
+- Requires PHP: 7.4 (tested up to 8.5)
+
+### به‌روزرسانی
+- بررسی نسخه تازه به **هر ۲۴ ساعت** یک بار کاهش یافت (قبلاً ۶ ساعت).
+- درخواست با **ETag** فرستاده می‌شود: اگر `latest.json` تغییر نکرده باشد، گیت‌هاب فقط پاسخ «۳۰۴ – تغییر نکرده» می‌دهد و محتوایی منتقل نمی‌شود.
+- بررسی فقط از پیشخوان یا WP-Cron انجام می‌شود؛ بازدیدکننده‌های سایت هرگز منتظر گیت‌هاب نمی‌مانند.
+- دکمه‌ی «بررسی ارتباط» همچنان فوراً از گیت‌هاب می‌پرسد. فیلتر `arya_update_interval` برای تغییر فاصله (حداقل یک ساعت).
+
 ## [2.7.1] – 2026-10-24
 - Version code: `20701`
 - Requires at least: 5.9
